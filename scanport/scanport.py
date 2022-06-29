@@ -36,7 +36,6 @@ def main(host, port_range):
         scanner.stop()
 
 
-
 if __name__ == '__main__':
     args = parser_arguments()
     check_port_range(args.port_range)
